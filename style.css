@@ -1,0 +1,267 @@
+@font-face {
+    font-family: font;
+    src: url('./font/Roboto-Medium.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: font;
+    color: #fff;
+}
+
+body {
+    background-color: #202124;
+}
+
+hr {
+     margin: 0 auto;
+     border-color: #808080;
+     height: 1px;
+     width: 92%;
+}
+i {
+    color: #bb86fc;
+}
+.pb100{
+    width: 100%;
+}
+.pb90{
+    width: 90%;
+}
+.pb80 {
+  width: 80%;
+}
+.pb65{
+    width: 65%;
+}
+.pb80 {
+    width: 80%;
+}
+.pb40 {
+    width: 40%;
+}
+.label {
+    padding: 3px 5px;
+    background-color: #bb86fc;
+    border-radius: 6px;
+}
+.container {
+    width: 98%;
+    padding: 1%;
+}
+#porofail-box{
+    position: relative;
+
+}
+#porofail-box  #porofail-imag{
+         width: 100%;
+         border-radius: 5px 5px 0px 0px ;
+}
+
+#porofail-box #porofail-name {
+       width: 95%;
+         color: #fff;
+         font-size: 20px;
+         background-color: rgba(0, 0, 0,0.4);
+         text-align: center;
+         padding: 8px;
+         position: absolute;
+         bottom: 4px;
+         left: 0;
+}
+#discripshen {
+    padding: 15px;
+}
+#discripshen ul {
+    list-style: none;
+}
+#discripshen ul li {
+    margin-bottom: 15px;
+}
+
+#discripshen ul li i {
+    color: #bb86fc;
+    font-size: 22px;
+}
+
+#discripshen ul li span {
+    font-size: 17px;
+    margin-left: 3px;
+}
+.aside-items{
+    padding: 15px;
+    font-size: 25px;
+    margin: 5px 0px 25px;
+}
+.skill-item {
+    margin-top:15px ;
+}
+
+.progress-box {
+            background-color: #fff;
+            border-radius: 30px;
+            margin-top: 10px;
+            width: 100%;
+            height: 20px;
+}
+.progress-box .progress-bar {
+    background-color: #bb86fc;
+    text-align: center;
+    border-radius: 30px;
+    height: 20px;
+    font-size: 16px;
+
+}
+.size-box {
+   font-size: 20px;
+}
+#Skillz {
+    margin-left: 3px;
+}
+
+.left-side {
+    background-color: #303134;
+    display: inline-block;
+    width: 25%;
+    margin: 0.5%;
+    vertical-align: top;
+    border-radius: 5px;
+
+}
+.right-side {
+    display: inline-block;
+    width: 72%;
+    height: 450px;
+    margin: 0.5%;
+    vertical-align: top;
+}
+.right-side section {
+    background-color: #303134;
+    
+    margin-bottom:2% ;
+    border-radius: 5px;
+    padding: 30px;
+}
+p .item-title {
+    font-size: 25px;
+   
+}
+
+.right-side-item .fffv {
+    margin: 24px 0px;
+}
+.fffvv {
+    margin: 15px 0px 40px;
+}
+#My-date {
+    font-size: 18px;
+}
+
+footer {
+    background-color:#bb86fc ;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 17px 0px;
+    margin-top: 3x; 
+    color: #fff;
+}
+footer a {
+    color: #fff;
+}
+
+@media only screen and (max-width:853px) {
+    .left-side {
+        display: block;
+        width: 99%;
+    }
+    .right-side {
+        display:block;
+        width: 99%;
+
+        
+    }
+    footer {
+        margin-top: 775px; 
+
+    }
+    #porofail-box #porofail-name {
+        width: 98.5%; 
+    }
+}
+@media only screen and (max-width:672px) {
+
+    footer {
+        margin-top:800px; 
+
+    }
+}
+@media only screen and (max-width:769px) {
+
+    footer {
+        margin-top:800px; 
+        
+    }
+    #porofail-box #porofail-name {
+        width: 97.8%; 
+    }
+}
+@media only screen and (max-width:660px) {
+
+    footer {
+        margin-top:830px; 
+
+    }
+}
+@media only screen and (max-width:514px) {
+
+    footer {
+        margin-top:880px; 
+
+    }
+}
+@media only screen and (max-width:474px) {
+
+    footer {
+        margin-top:930px; 
+
+    }
+}
+@media only screen and (max-width:430px) {
+
+    footer {
+        margin-top:990px; 
+
+    }
+    #porofail-box #porofail-name {
+        width: 96%;
+    }
+}
+@media only screen and (max-width:376px) {
+
+    footer {
+        margin-top:1020px; 
+
+    }
+    #porofail-box #porofail-name {
+        width: 95.5%;
+    }
+}
+@media only screen and (max-width:300px) {
+
+    footer {
+        margin-top:1080px; 
+
+    }
+    #porofail-box #porofail-name {
+        width: 96px;
+    }
+}
+@media only screen and (max-width:1052px) {
+     #gta {
+       margin-top: 100px;
+     }
+
+}
+
+
